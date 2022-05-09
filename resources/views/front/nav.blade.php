@@ -62,9 +62,9 @@
             <span class="nav-item">
                     <a class="btn-outline-sm" href="{{route('login')}}">Giriş Yap</a>
                 </span>
-            <span class="nav-item">
+           {{-- <span class="nav-item">
                     <a class="btn-outline-sm" href="{{route('register')}}">Kayıt Ol</a>
-                </span>
+                </span>--}}
             @else
                 <span class="nav-item">
                     <a class="btn-outline-sm" href="javascript:void(0)" onclick="event.preventDefault(); document.getElementById('logoutForm').submit();">Çıkış Yap</a>

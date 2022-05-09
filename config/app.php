@@ -184,7 +184,6 @@ return [
         RealRashid\SweetAlert\SweetAlertServiceProvider::class,
         Brian2694\Toastr\ToastrServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -215,7 +214,6 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
         'Toastr'  => Brian2694\Toastr\Facades\Toastr::class,
-        'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
     ])->toArray(),
 
 ];

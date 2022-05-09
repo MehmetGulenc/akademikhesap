@@ -28,14 +28,14 @@ Route::middleware('front.data.share')->group(function(){
         Route::get('contact', [FrontController::class, 'contact'])-> name('contact');
         Route::get('tool-info', [ToolController::class, 'toolInfo'])->name('tool-info');
        /* Route::get('tool-info/{tool-info}', [ToolController::class, 'toolInfoParam'])->name('tools.tool-info');*/
-        Route::get('tool', [ToolController::class, 'index'])->name('tool');
-        Route::get('tool/{tool}', [ToolController::class, 'tool'])->name('tools.tool');
+        Route::get('docentlik-hesaplama', [ToolController::class, 'index'])->name('docentlik-hesaplama');
+        Route::get('docentlik-hesaplama/{field}', [ToolController::class, 'tool'])->name('docentlik-hesaplama.field');
         /*Route::get('tool/egitim-bilimleri', [ToolController::class, 'tool'])->name('tools.tool');*/
 
         Route::get('fields', function (){
             return view('layouts.fields');
         });
-        Route::get('tool/egitim-bilimleri', [ToolController::class, 'tool']);
+        Route::post('docentlik-hesaplama/egitim-bilimleri', [ToolController::class, 'tool']);
 
 
         /*Route::get('tool/egitim-bilimleri', function (){

@@ -54,7 +54,7 @@
                    {{-- @foreach($listTool as $itemTool)
                         @if($item->tool_id == $itemTool->id)--}}
                             <div class="col-md-4 mt-4">
-                                <a data-id="{{$field->id}}" href="{{route('tools.tool', $field->slug)}}" id="selectedField" class="card btn btn-outline-light border text-decoration-none">
+                                <a data-id="{{$field->id}}" href="{{route('docentlik-hesaplama.field', $field->slug)}}" id="selectedField" class="card btn btn-outline-light border text-decoration-none">
                                     <div class="card-body">
                                         <h4 class="card-title">{{$field->name}}</h4>
                                     </div>

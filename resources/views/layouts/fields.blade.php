@@ -23,6 +23,7 @@
     <link href="{{asset('assets/visitor-auth-temp/css/swiper.css')}}" rel="stylesheet">
     <link href="{{asset('assets/visitor-auth-temp/css/magnific-popup.css')}}" rel="stylesheet">
     <link href="{{asset('assets/visitor-auth-temp/css/styles.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('assets/visitor-auth-temp/vendors/bootstrap-icons/bootstrap-icons.css')}}">
 
 @yield('css')
 
@@ -70,7 +71,7 @@
                         apps in
                         the market</p>
                 </div>
-            </div> <!-- end of col -->
+            </div>
             <div class="col-md-4">
                 <div class="footer-col middle">
                     <h4>Important Links</h4>
@@ -88,7 +89,7 @@
                         </li>
                     </ul>
                 </div>
-            </div> <!-- end of col -->
+            </div>
             <div class="col-md-4">
                 <div class="footer-col last">
                     <h4>Contact</h4>
@@ -106,11 +107,11 @@
                         </li>
                     </ul>
                 </div>
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of footer -->
-<!-- end of footer -->
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- Copyright -->
@@ -120,23 +121,23 @@
             <div class="col-lg-12">
                 <p class="p-small">Copyright 2022, Mehmet Gülenç<br>
                 </p>
-            </div> <!-- end of col -->
-        </div> <!-- enf of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of copyright -->
-<!-- end of copyright -->
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 
 <!-- Scripts -->
-<script src="{{asset('assets/visitor-auth-temp/js/jquery.min.js')}}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-<script src="{{asset('assets/visitor-auth-temp/js/popper.min.js')}}"></script> <!-- Popper tooltip library for Bootstrap -->
-<script src="{{asset('assets/visitor-auth-temp/js/bootstrap.min.js')}}"></script> <!-- Bootstrap framework -->
-<script src="{{asset('assets/visitor-auth-temp/js/jquery.easing.min.js')}}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-<script src="{{asset('assets/visitor-auth-temp/js/swiper.min.js')}}"></script> <!-- Swiper for image and text sliders -->
-<script src="{{asset('assets/visitor-auth-temp/js/jquery.magnific-popup.js')}}"></script> <!-- Magnific Popup for lightboxes -->
-<script src="{{asset('assets/visitor-auth-temp/js/validator.min.js')}}"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-<script src="{{asset('assets/visitor-auth-temp/js/scripts.js')}}"></script> <!-- Custom scripts -->
+<script src="{{asset('assets/visitor-auth-temp/js/jquery.min.js')}}"></script>
+<script src="{{asset('assets/visitor-auth-temp/js/popper.min.js')}}"></script>
+<script src="{{asset('assets/visitor-auth-temp/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/visitor-auth-temp/js/jquery.easing.min.js')}}"></script>
+<script src="{{asset('assets/visitor-auth-temp/js/swiper.min.js')}}"></script>
+<script src="{{asset('assets/visitor-auth-temp/js/jquery.magnific-popup.js')}}"></script>
+<script src="{{asset('assets/visitor-auth-temp/js/validator.min.js')}}"></script>
+<script src="{{asset('assets/visitor-auth-temp/js/scripts.js')}}"></script>
 @yield('js')
 </body>
 </html>
