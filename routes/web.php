@@ -30,7 +30,7 @@ Route::middleware('front.data.share')->group(function(){
        /* Route::get('tool-info/{tool-info}', [ToolController::class, 'toolInfoParam'])->name('tools.tool-info');*/
         Route::get('docentlik-hesaplama', [ToolController::class, 'index'])->name('docentlik-hesaplama');
         Route::get('docentlik-hesaplama/{field}', [ToolController::class, 'tool'])->name('docentlik-hesaplama.field');
-        /*Route::get('tool/egitim-bilimleri', [ToolController::class, 'tool'])->name('tools.tool');*/
+        //Route::get('tool/egitim-bilimleri', [ToolController::class, 'tool'])->name('tools.tool');
 
         Route::get('fields', function (){
             return view('layouts.fields');
@@ -69,7 +69,6 @@ Route::prefix('/')->middleware('auth')->middleware('auth')->group(function (){
 
 
     });
-
 });
 
 

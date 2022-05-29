@@ -90,7 +90,8 @@
         </div>
     </div>
 
-    <div id="video" class="basic-2">
+   {{-- Daha Sonra eklenecek--}}
+   {{-- <div id="video" class="basic-2">
         <div class="container">
             <div class="row">
                 <div class="p-heading"><h3>Doçentlik Puanı Nasıl Hesaplanır</h3>
@@ -111,7 +112,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--}}
 
 
     <div class="slider-2">
@@ -123,7 +124,7 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="image-wrapper">
-                                        <img class="img-fluid" src="assets/visitor-auth-temp/images/testimonial-1.jpg"
+                                        <img class="img-fluid" src="assets/visitor-auth-temp/images/not_add.png"
                                              alt="alternative">
                                     </div>
                                     <div class="text-wrapper">
@@ -136,7 +137,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="image-wrapper">
-                                        <img class="img-fluid" src="assets/visitor-auth-temp/images/testimonial-2.jpg"
+                                        <img class="img-fluid" src="assets/visitor-auth-temp/images/not_add.png"
                                              alt="alternative">
                                     </div>
                                     <div class="text-wrapper">
@@ -151,7 +152,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="image-wrapper">
-                                        <img class="img-fluid" src="assets/visitor-auth-temp/images/testimonial-3.jpg"
+                                        <img class="img-fluid" src="assets/visitor-auth-temp/images/not_add.png"
                                              alt="alternative">
                                     </div>
                                     <div class="text-wrapper">
@@ -168,7 +169,7 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="image-wrapper">
-                                        <img class="img-fluid" src="assets/visitor-auth-temp/images/testimonial-4.jpg"
+                                        <img class="img-fluid" src="assets/visitor-auth-temp/images/not_add.png"
                                              alt="alternative">
                                     </div> <!-- end of image-wrapper -->
                                     <div class="text-wrapper">

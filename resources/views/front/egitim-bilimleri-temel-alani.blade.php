@@ -209,74 +209,18 @@
             $('#btnSave').click(function () {
                 //console.log(value[0]);
                 let categoryId = 0;
-                for (let i = 1; i <= value[0]; i ++){
-                    //categoryId = $('#category'+ i).data('id');
+                let i = 0;
+                for (i = 1; i <= value[0]; i ++){
                     categoryId = $('#category'+ i).data('id');
-
+                    let html = "";
                     if (value[0] == categoryId) {
-                        let html = $('#category' + value[0])[0];
-                        /*html.innerHTML += "";
-                        html.innerHTML = "Merhaba";*/
+
+                        html  = $('#category' + value[0])[0]; //html =
                         html.innerHTML += '<p> <a href="" class="text-decoration-none"><i class="bi bi-x-square-fill"></i></a>  <small class="text-muted">' +  value  + ' <span class="text-success"><em>(40 puan - Doktora Sonrası)</em></span>  </small>  </p>'
                     }
-
+                    $('#btnBack').click();
                 }
-
-
             })
-            /* point = tempScore;
-             checkPoint.val(point);*/
-
-            /*$(":input").bind('mouseup', function () {
-                let checkPiece = $('#yayinAdeti').val();
-                point *= checkPiece;
-                checkPoint.val(point);
-            });*/
-
-
-            /* var logElem = document.querySelector(".log");
-
-             var time = new Date();
-             var timeStr = time.toLocaleTimeString();
-             logElem.innerHTML += timeStr + ": " + msg + "<br/>";*/
-
-
-            /*alert(selectedValue);*/
-
-
-            /*let toolsEdit = $('#toolsEdit');
-            let nameEdit = $('#nameEdit');
-            let statusEdit = $('#statusEdit');
-            let slugEdit = $('#slugEdit');
-
-            let route = '{{route('fields.edit', ['field' => 'fieldsEdit'])}}';
-            let routeUpdate = '{{route('fields.update', ['field' => 'fieldsEdit'])}}';
-            route = route.replace('fieldsEdit', fieldId);
-            routeUpdate = routeUpdate.replace('fieldsEdit', fieldId);
-            $('#frmEditField').attr('action', routeUpdate);
-            $.ajax({
-                url: route,
-                type: "GET",
-                async: false,
-                data: {
-                    $id: fieldId
-                },
-                success: function (response) {
-                    let fields = response.fields;
-                    nameEdit.val(fields.name);
-                    toolsEdit.val(fields.tool_id);
-                    if (fields.status) {
-                        statusEdit.attr('checked', true);
-                    } else {
-                        statusEdit.attr('checked', false);
-                    }
-                    slugEdit.val(fields.slug);
-                },
-                error: function () {
-
-                }
-            })*/
-
         })
     </script>
 @endsection

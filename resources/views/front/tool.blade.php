@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="breadcrumbs">
-                        <a href="index.php">Anasayfa</a><i class="fa fa-angle-double-right"></i><a href="index.php">Araç Hakkında</a><i class="fa fa-angle-double-right"></i><span>Doçentlik Puanı Hesaplama Aracı</span>
+                        <a href="index.php">Anasayfa</a><i class="fa fa-angle-double-right"></i><span>Doçentlik Puanı Hesaplama Aracı</span>
                     </div> <!-- end of breadcrumbs -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -37,23 +37,27 @@
     </div> <!-- end of ex-basic-1 -->
     <!-- end of breadcrumbs -->
     <!-- Description -->
-    <div class="cards-1">
+   {{-- <div class="cards-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 mt-4">
                     <h2 class="h2-heading">Puanını Hesaplamak İstediğiniz Alanı Seçiniz</h2>
                 </div>
             </div>
         </div>
-    </div>
+    </div>--}}
     <div class="ex-basic-2">
         <div class="container">
+            <div class="alert alert-info mb-5" role="alert">
+                ! Diğer Alanlar En Yakın Zaman da Eklenecektir.
+            </div>
             <div class="row">
-
+                <h2 class="h2-heading">Puanını Hesaplamak İstediğiniz Alanı Seçiniz</h2>
                 @foreach($fields as $field)
                    {{-- @foreach($listTool as $itemTool)
                         @if($item->tool_id == $itemTool->id)--}}
-                            <div class="col-md-4 mt-4">
+                           {{-- <div class="col-md-4 mt-4">--}}
+                            <div class="col mt-2">
                                 <a data-id="{{$field->id}}" href="{{route('docentlik-hesaplama.field', $field->slug)}}" id="selectedField" class="card btn btn-outline-light border text-decoration-none">
                                     <div class="card-body">
                                         <h4 class="card-title">{{$field->name}}</h4>
@@ -66,6 +70,7 @@
             </div>
         </div>
     </div>
+
 @endsection
 @section('js')
 {{--<script>

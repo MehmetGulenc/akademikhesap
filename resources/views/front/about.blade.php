@@ -21,21 +21,62 @@
 @endsection
 
 @section('content')
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid aperiam dolor dolorum eligendi eum
-        exercitationem illum in labore libero magni nam necessitatibus nobis odit provident qui quia quos recusandae,
-        repellat sequi similique tempore totam veniam voluptate voluptatibus. Accusantium, aliquid architecto corporis
-        debitis ex excepturi laborum magni, molestias natus, necessitatibus nemo odio odit placeat praesentium quod
-        repellendus voluptatum! Blanditiis ducimus fugiat inventore nemo nostrum provident sunt. Adipisci, aliquid
-        consectetur culpa dolores ea est fugiat illum iste molestiae nesciunt nisi obcaecati officiis optio pariatur
-        saepe sapiente sint sunt vero, voluptates voluptatum. Ad alias aliquam amet, aut autem commodi consequatur
-        deleniti dicta dignissimos doloremque dolores doloribus eaque earum, et eveniet ex expedita explicabo magnam
-        maxime minima nam natus nihil nobis officia optio praesentium provident quam quas rem similique tempore
-        temporibus unde, vel veniam vero voluptatem voluptatibus? Amet aperiam consectetur debitis exercitationem
-        inventore omnis pariatur perferendis quaerat quibusdam vel. Adipisci aliquid aspernatur commodi dolor ducimus
-        eaque excepturi facere facilis fugit illo itaque iure labore laudantium libero magni maiores neque pariatur,
-        possimus quidem rem, sit suscipit totam ullam unde vel veniam vero voluptates! Alias animi consequatur excepturi
-        exercitationem fugiat ipsa placeat rem sint sunt ullam vel, velit, veritatis, voluptas! Corporis harum iste
-        nostrum sequi.</p>
+    <div class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Takım</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg">
+                    <div class="slider-2">
+                        <div class="container col-lg-6">
+                            <div class="swiper-container text-slider">
+                                <div class="image-wrapper">
+                                    <img class="img-fluid"
+                                         src="../assets/visitor-auth-temp/images/profil.jpg"
+                                         alt="alternative">
+                                </div>
+                                <div class="text-wrapper">
+                                    <div class="testimonial-text">
+                                        <div class="icon-container">
+                                                             <span class="fa-stack">
+                                                                <a href="https://www.linkedin.com/in/mehmet-g%C3%BClen%C3%A7-924022187"
+                                                                   target="_blank">
+                                                                    <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                                                                </a>
+                                                            </span>
+                                            <span class="fa-stack">
+                                                                <a href="https://github.com/MehmetGulenc"
+                                                                   target="_blank">
+                                                                    <i class="fab fa-github fa-stack-1x"></i>
+                                                                </a>
+                                                            </span>
+                                            <span class="fa-stack">
+                                                                <a href="https://twitter.com/mehmetgulenc_"
+                                                                   target="_blank">
+                                                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                                                </a>
+                                                            </span>
+                                            <span class="fa-stack">
+                                                                <a href="https://www.instagram.com/mehmetgulenc_/"
+                                                                   target="_blank">
+                                                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                                                </a>
+                                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-author"><b>Mehmet Gülenç</b>
+                                        <p>Junior Full Stack Developer</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 
 @section('js')

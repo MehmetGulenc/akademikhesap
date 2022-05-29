@@ -12,15 +12,13 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-md-6 order-md-1 order-last">
-                    <h3>Vertical Layout with Navbar</h3>
-                    <p class="text-subtitle text-muted">Navbar will appear in top of the page.</p>
+                    <h3>Gösterge Paneli</h3>
+                    <p class="text-subtitle text-muted">Bu Sayfa Daha Sonra Düzenlenecektir !!!</p>
                 </div>
                 <div class="col-12 col-md-6 order-md-2 order-first">
                     <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="admin.php">Dashboard</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Layout Vertical Navbar
-                            </li>
+                            <li class="breadcrumb-item"><a href="https://sapy.mehmetgulenc.com/home">/ Gösterge Paneli</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -31,8 +29,21 @@
                 <div class="col-12 col-lg-9">
                     <div class="row">
                         <div class="col-6 col-lg-3 col-md-6">
-
-
+                            <div class="card">
+                                <div class="card-body px-3 py-4-5">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="stats-icon blue">
+                                                <i class="iconly-boldProfile"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <h6 class="text-muted font-semibold">Toplam Alan</h6>
+                                            <h6 class="font-extrabold mb-0">11</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-6 col-lg-3 col-md-6">
                             <div class="card">
@@ -44,8 +55,8 @@
                                             </div>
                                         </div>
                                         <div class="col-md-8">
-                                            <h6 class="text-muted font-semibold">Followers</h6>
-                                            <h6 class="font-extrabold mb-0">183.000</h6>
+                                            <h6 class="text-muted font-semibold">Toplam Araç</h6>
+                                            <h6 class="font-extrabold mb-0">2</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -61,8 +72,8 @@
                                             </div>
                                         </div>
                                         <div class="col-md-8">
-                                            <h6 class="text-muted font-semibold">Following</h6>
-                                            <h6 class="font-extrabold mb-0">80.000</h6>
+                                            <h6 class="text-muted font-semibold">Toplam Menü</h6>
+                                            <h6 class="font-extrabold mb-0">5</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -78,15 +89,15 @@
                                             </div>
                                         </div>
                                         <div class="col-md-8">
-                                            <h6 class="text-muted font-semibold">Saved Post</h6>
-                                            <h6 class="font-extrabold mb-0">112</h6>
+                                            <h6 class="text-muted font-semibold">Toplam Kullanıcı</h6>
+                                            <h6 class="font-extrabold mb-0">1</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    {{--<div class="row">
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
@@ -97,8 +108,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
+                    </div>--}}
+                    {{--<div class="row">
                         <div class="col-12 col-xl-4">
                             <div class="card">
                                 <div class="card-header">
@@ -211,7 +222,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
                 <div class="col-12 col-lg-3">
                     <div class="card">
@@ -221,13 +232,12 @@
                                     <img src="{{asset('assets/admin-temp/images/faces/1.jpg')}}" alt="Face 1">
                                 </div>
                                 <div class="ms-3 name">
-                                    <h5 class="font-bold">John Duck</h5>
-                                    <h6 class="text-muted mb-0">@johnducky</h6>
+                                    <h5 class="font-bold">{{auth()->user()->name}}</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    {{--<div class="card">
                         <div class="card-header">
                             <h4>Recent Messages</h4>
                         </div>
@@ -272,7 +282,7 @@
                         <div class="card-body">
                             <div id="chart-visitors-profile"></div>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
             </section>
         </div>

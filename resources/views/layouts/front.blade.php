@@ -40,13 +40,13 @@
 @yield('header')
 {{-- İçerik --}}
 
-
+<div class="container">
 <div class="row">
-    <div class="col-12">
+    <div class="col">
         @yield('content')
     </div>
 </div>
-
+</div>
 {{--İçerik - end--}}
 
 
@@ -72,28 +72,10 @@
                         bir sitedir. Başvurmak istediğiniz alana göre gerçekleştirdiğiniz veya planladığınız çalışmalara
                         göre elde edeceğiniz puanı hesaplayabilmenizi sağlar. Ücretsizdir.</p>
                 </div>
-            </div> <!-- end of col -->
-            {{-- <div class="col-md-4">
-                 <div class="footer-col middle">
-                     <h4>Important Links</h4>
-                     <ul class="list-unstyled li-space-lg p-small">
-                         <li class="media">
-                             <i class="fas fa-square"></i>
-                             <div class="media-body">Our business partners <a class="white" href="#your-link">startupguide.com</a>
-                             </div>
-                         </li>
-                         <li class="media">
-                             <i class="fas fa-square"></i>
-                             <div class="media-body">Read our <a class="white" href="terms-conditions.php">Terms &
-                                     Conditions</a>, <a class="white" href="privacy-policy.php">Privacy Policy</a>
-                             </div>
-                         </li>
-                     </ul>
-                 </div>
-             </div> <!-- end of col -->--}}
+            </div>
             <div class="col-md-6">
                 <div class="footer-col last">
-                    <h4>Contact</h4>
+                    <h4>İletişim</h4>
                     <ul class="list-unstyled li-space-lg p-small">
                         <li class="media">
                             <i class="fas fa-map-marker-alt"></i>
@@ -104,32 +86,28 @@
                         <li class="media">
                             <i class="fas fa-envelope"></i>
                             <div class="media-body"><a class="white"
-                                                       href="mailto:contact@tivo.com">mehmetgulenc915@hotmail.com</a>
+                                                       href="mailto:mehmetgulenc915@hotmail.com">mehmetgulenc915@hotmail.com</a>
                                 <i class="fas fa-globe"></i><a class="white"
-                                                               href="#your-link">www.sapy.mehmetgulenc.com</a>
+                                                               href="{{route('index')}}">www.sapy.mehmetgulenc.com</a>
                             </div>
                         </li>
                     </ul>
                 </div>
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of footer -->
-<!-- end of footer -->
-
-
-<!-- Copyright -->
+            </div>
+        </div>
+    </div>
+</div>
 <div class="copyright">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <p class="p-small">Copyright 2022, Mehmet Gülenç<br>
                 </p>
-            </div> <!-- end of col -->
-        </div> <!-- enf of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of copyright -->
-<!-- end of copyright -->
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- Scripts -->
